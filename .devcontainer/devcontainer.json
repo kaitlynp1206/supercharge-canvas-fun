@@ -1,0 +1,12 @@
+{
+
+    "extensions": [
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode",
+		"streetsidesoftware.code-spell-checker",
+		"johnpapa.winteriscoming",
+		"ritwickdey.LiveServer",
+		"stylelint.vscode-stylelint"
+	]
+
+}

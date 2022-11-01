@@ -3,14 +3,17 @@ let width = CANVAS_WIDTH;
 let height = CANVAS_HEIGHT;
 let points = [];
 let maxParticles = 10;
-let pointSize = 6;
+let pointSize = 4;
 
 c.createScreenBuffer("osc");
 let osc = c.screenBuffers.osc;
 
 window.onload = function () {
   let url =
-    "https://anuraghazra.dev/CanvasFun/TextParticles/src/images/mypic.jpg";
+    "https://github.githubassets.com/images/modules/logos_page/Octocat.png";
+
+    // let url =
+    // "https://myoctocat.com/assets/images/octocat-accessories.png";
 
   let mouse = new Vector(0, 0);
 
@@ -24,7 +27,7 @@ window.onload = function () {
   c.noStroke();
   let count = 1;
   function animate() {
-    c.clear("#151515");
+    c.clear("steelblue");
 
     mouse.setXY(mouseX, mouseY);
 
