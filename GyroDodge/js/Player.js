@@ -63,8 +63,8 @@ class Player {
   applyForce(f) { this.acc.add(f) }
 
   update() {
-    this.vel.add(this.acc);
-    this.vel.limit(5);
+    this.vel.add(this.acc );
+    this.vel.limit(2);
     this.pos.add(this.vel);
     this.acc.mult(0);
   }

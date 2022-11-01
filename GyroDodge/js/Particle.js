@@ -7,7 +7,7 @@ class Particle extends Bullet {
   }
 
   render() {
-    this.vel.y += random(-0.2, 0.2);
+    this.vel.y += random(-0.2, 0.2) ;
     push();
     stroke(255, this.life * 255);
     strokeWeight(2);
