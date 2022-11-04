@@ -8,7 +8,7 @@
 		"ritwickdey.LiveServer",
 		"stylelint.vscode-stylelint"
 	],
-    "onCreateCommand": "echo PS1='\"$[Universe] \"' >> ~/.bashrc" //Set Terminal Prompt to $
+    "onCreateCommand": "echo PS1='\"Universe-Workshop \"' >> ~/.bashrc" //Set Terminal Prompt to $
 }
 
 // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
