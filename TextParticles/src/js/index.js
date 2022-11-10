@@ -9,11 +9,11 @@ c.createScreenBuffer("osc");
 let osc = c.screenBuffers.osc;
 
 window.onload = function () {
-  let url =
-    "https://github.githubassets.com/images/modules/logos_page/Octocat.png";
+  // let url =
+  //   "https://github.githubassets.com/images/modules/logos_page/Octocat.png";
 
-    // let url =
-    // "https://myoctocat.com/assets/images/octocat-accessories.png";
+    let url =
+    "https://myoctocat.com/assets/images/octocat-accessories.png";
 
   let mouse = new Vector(0, 0);
 
@@ -27,7 +27,7 @@ window.onload = function () {
   c.noStroke();
   let count = 1;
   function animate() {
-    c.clear("steelblue");
+    c.clear("orange");
 
     mouse.setXY(mouseX, mouseY);
 
